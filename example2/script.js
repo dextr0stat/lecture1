@@ -1,3 +1,4 @@
+
 // get reference to sliders
 
 const x_slider = document.getElementById( 'x' )
