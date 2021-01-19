@@ -7,16 +7,25 @@
     <head>
         <meta charset="utf-8">
         <title>Example 1</title>
-
+      
+        <!--added new font-->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;1,500&display=swap" rel="stylesheet"> 
+       
         <!-- css -->
         <style>
             /* uncomment to change default font */
              html {
-                font-family: sans-serif;
+                font-family: 'IBM Plex Sans', sans-serif;
             } 
 
             img {
                 width: 512px; /* set image width */
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                margin-bottom: auto;
+                margin-top: auto;
             }
 
             #caption {
@@ -24,23 +33,30 @@
                 font-style: italic;
             }
         </style>
-    </head>
+   
+</head>
 
     <!-- content -->
     <body>
         <!-- some text and links -->
         <p>
-            <a href="https://commons.wikimedia.org/wiki/File:Black_hole_-_Messier_87_crop_max_res.jpg">Event Horizon Telescope, uploader cropped and converted TIF to JPG</a>, <a href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</a>, via Wikimedia Commons
+
+          <h1> 
+           
+              <a style="font-weight:bold" href="https://archv.in/">Assignment // 001</a>,
+              </h1>
         </p>
         
-        <!-- an image -->
+        <!-- an image CHANGED LINK -->
         <img id="myImage"
-             alt="Black hole - Messier 87 crop max res"
-             src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Black_hole_-_Messier_87_crop_max_res.jpg/1024px-Black_hole_-_Messier_87_crop_max_res.jpg">
+             alt="CLICK ME"
+             src="https://freight.cargo.site/w/1800/q/94/i/9544269e878a9fb3f86830142428ff1deafec3db398395f1ebb5986ee8b85ad4/VANDALS-GIF-Banner.gif">
 
         <!-- a caption -->
         <p id="caption">
-            The Event Horizon Telescope (EHT) — a planet-scale array of eight ground-based radio telescopes forged through international collaboration — was designed to capture images of a black hole. In coordinated press conferences across the globe, EHT researchers revealed that they succeeded, unveiling the first direct visual evidence of the supermassive black hole in the centre of Messier 87 and its shadow.
+            if you dont know, 
+            <br>
+            now you know
         </p>
 
         <!-- javascript -->
